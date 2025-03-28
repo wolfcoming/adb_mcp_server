@@ -1,0 +1,12 @@
+{
+    "mcpServers": {
+        "android_adb": {
+            "command": "python",
+            "args": [
+                "-m",
+                "src.adb_server"
+            ],
+            "cwd": "/Users/yangqing/project/ai/work/adb_mcp_server"
+        }
+    }
+} 

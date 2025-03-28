@@ -1,0 +1,43 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Python virtual environments
+venv/
+env/
+ENV/
+.env/
+
+# IDE specific files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Local configuration
+.local/ 
