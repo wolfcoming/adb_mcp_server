@@ -1,5 +1,9 @@
 # Android ADB MCP 服务器
 
+![GitHub](https://img.shields.io/github/license/wolfcoming/adb_mcp_server)
+![GitHub stars](https://img.shields.io/github/stars/wolfcoming/adb_mcp_server)
+![GitHub last commit](https://img.shields.io/github/last-commit/wolfcoming/adb_mcp_server)
+
 这是一个基于 MCP 协议的 Android ADB 服务器，允许通过 Claude for Desktop 或其他 MCP 客户端远程控制连接到电脑的 Android 设备。
 
 ## 功能特点
@@ -22,7 +26,8 @@
 ## 安装
 
 ```bash
-# 克隆或下载此仓库
+# 克隆此仓库
+git clone https://github.com/wolfcoming/adb_mcp_server.git
 cd adb_mcp_server
 
 # 安装依赖
@@ -169,4 +174,12 @@ adb start-server
 - 如果遇到问题，确保 ADB 服务器已启动 (`adb start-server`)
 - 确保 Android 设备已授权您的电脑进行 USB 调试
 - 某些操作可能需要 root 权限
-- 如果遇到"Permission Denial"权限问题，请使用`enhanced_start_app`高级工具 
+- 如果遇到"Permission Denial"权限问题，请使用`enhanced_start_app`高级工具
+
+## 贡献
+
+欢迎提交问题和贡献代码！请随时提交 Pull Request 或创建 Issue。
+
+## 许可证
+
+MIT © [wolfcoming](https://github.com/wolfcoming) 
